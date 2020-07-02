@@ -1,0 +1,3 @@
+This directory contains csv files with the data used to generate the figures in the publication The code contains queries to pull the data from DataJoint, in principle these queries should always return the same data but since the DataJoint database is subject to change the static data can be downloaded from Figshare (INSERT LINK HERE). To use static csv data files instead  of DataJoint queries, download the data, place the files in the 'data' folder, set QUERY to False in paper_behavior_functions.
+
+subjects.csv contains a list of subjects used in the publication. It is not directly used in the code.
